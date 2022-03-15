@@ -8,4 +8,24 @@
 
 * {
 
+    Padding: 0;
+    Margin: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif
+}
+
+header {
+    background-color: var(--color4);
+    padding: 15px 30px;
+    justify-content: space-between;
+    display: flex;
+    flex-wrap: wrap;
+    position: sticky;
+    top: 0;
+    position: -webkit-sticky;
+    z-index: 9999;
 }
