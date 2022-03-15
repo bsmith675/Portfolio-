@@ -152,3 +152,28 @@ section a {
     background-image: url('');
     margin: 10px 10px;
 }
+
+.project:hover{
+    opacity: .70;
+}
+
+#project1{
+    background-size: cover;
+    background-image: url('');
+}
+
+#project2{
+    background-size: cover;
+    background-image: url('');
+}
+
+#project3{
+    background-size:cover;
+    background-image: url('');
+}
+
+/*sectioning*/
+
+section nav {
+    
+}
