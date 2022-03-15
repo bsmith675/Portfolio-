@@ -55,3 +55,40 @@ header nav ul {
     list-style: none;
 
 }
+
+header nav ul li a:hover {
+    background: var(--color4);
+    border-radius: 14px;
+    color: var(--color4);
+    text-shadow: none;
+
+}
+
+/* profile picture */
+
+.profile-pic-container {
+    padding: 20px 50px;
+    background-color: var(--color1);
+}
+
+/*styling*/
+
+.title-container {
+    width: 15%;
+    padding-right: 10px;
+    display: flex;
+    border-right:3px solid var (--color2);
+    justify-content: flex-end;
+    align-items: center;
+    flex-wrap: wrap;
+} 
+
+.content-row {
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: stretch;
+    display: flex;
+    text-shadow: 0 0 10px;
+    background-color: var(--color4);
+    padding: 15px 30px;
+}
