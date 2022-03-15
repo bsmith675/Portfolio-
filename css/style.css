@@ -92,3 +92,21 @@ header nav ul li a:hover {
     background-color: var(--color4);
     padding: 15px 30px;
 }
+
+.title-container h2 {
+    font-size: 24px;
+    margin-left: 6px;
+}
+
+/*about me*/
+
+.plain-text-conainer {
+    width: 90%;
+    line-height: 1.5;
+    padding-left: 12px;
+
+}
+
+section a {
+    color: var(--color2);
+}
