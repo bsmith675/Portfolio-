@@ -20,7 +20,7 @@ body {
 
 header {
     background-color: var(--color4);
-    padding: 15px 30px;
+    padding: 20px 35px;
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
@@ -32,14 +32,15 @@ header {
 
 header h1 {
     font-weight: bolder;
-    font-size: 34px;
+    font-size: 36px;
     margin: 0;
-    color: var (--color2)
+    color: var (--color2);
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header nav {
-    margin: 6px 0;
-    width: 36%
+    margin: 7px 0;
+    width: 40%
 }
 
 header a {
@@ -54,6 +55,13 @@ header nav ul {
     align-items: center;
     list-style: none;
 
+}
+
+header nav ul li a {
+    padding: 10px 15px;
+    font-size: 24px;
+    font-weight: bolder;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5)
 }
 
 header nav ul li a:hover {
@@ -88,9 +96,10 @@ header nav ul li a:hover {
     justify-content: space-between;
     align-items: stretch;
     display: flex;
-    text-shadow: 0 0 10px;
+    text-shadow: 0 0 10px rgba (0, 0, 0, 0.5);
     background-color: var(--color4);
     padding: 15px 30px;
+    color: var(--color2)
 }
 
 .title-container h2 {
@@ -146,7 +155,7 @@ section a {
     opacity: .75;
 }
 
-.project{
+.project {
     position: relative;
     width: 45%;
     background-image: url('');
@@ -194,12 +203,14 @@ section nav ul {
 section nav ul li a:hover {
     border-radius: 14px;
     background: var(--color4);
-    color: var(--color3)
+    color: var(--color3);
+    text-shadow:none;
 }
 
 section nav ul li a {
     padding: 10px 14px;
     font-weight: bold;
     font-size: 16px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
