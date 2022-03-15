@@ -35,7 +35,6 @@ header h1 {
     font-size: 36px;
     margin: 0;
     color: var (--color2);
-    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 header nav {
@@ -66,7 +65,7 @@ header nav ul li a {
 
 header nav ul li a:hover {
     background: var(--color4);
-    border-radius: 14px;
+    border-radius: 15px;
     color: var(--color4);
     text-shadow: none;
 
@@ -82,10 +81,10 @@ header nav ul li a:hover {
 /*styling*/
 
 .title-container {
-    width: 15%;
+    width: 12%;
     padding-right: 10px;
     display: flex;
-    border-right:3px solid var (--color2);
+    border-right: 3px solid var (--color2);
     justify-content: flex-end;
     align-items: center;
     flex-wrap: wrap;
@@ -98,21 +97,21 @@ header nav ul li a:hover {
     display: flex;
     text-shadow: 0 0 10px rgba (0, 0, 0, 0.5);
     background-color: var(--color4);
-    padding: 15px 30px;
+    padding: 20px 35px;
     color: var(--color2)
 }
 
 .title-container h2 {
-    font-size: 24px;
-    margin-left: 6px;
+    font-size: 28px;
+    margin-left: 8px;
 }
 
 /*about me*/
 
 .plain-text-conainer {
-    width: 90%;
+    width: 88%;
     line-height: 1.5;
-    padding-left: 12px;
+    padding-left: 10px;
 
 }
 
@@ -123,11 +122,11 @@ section a {
 /*portfolio*/
 
 .project-container {
-    min-height: 600px;
+    min-height: 500px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    width: 85%
+    width: 88%
 }
 
 .project-container p {
@@ -137,7 +136,7 @@ section a {
     padding: 5px 5px;
     bottom: 10px;
     position: absolute;
-    border: 2px solid var(--color2);
+    border: 3px solid var(--color2);
     background-color: var(--color1);
 }
 
@@ -163,7 +162,7 @@ section a {
 }
 
 .project:hover{
-    opacity: .70;
+    opacity: .75;
 }
 
 #project1{
@@ -184,8 +183,8 @@ section a {
 /*sectioning*/
 
 section nav {
-    margin: 6px 0;
-    width: 90%;
+    margin: 7px 0;
+    width: 88%;
     flex-wrap: wrap;
     display: flex;
 }
@@ -201,16 +200,16 @@ section nav ul {
 }
 
 section nav ul li a:hover {
-    border-radius: 14px;
+    border-radius: 15px;
     background: var(--color4);
     color: var(--color3);
     text-shadow:none;
 }
 
 section nav ul li a {
-    padding: 10px 14px;
+    padding: 10px 15px;
     font-weight: bold;
-    font-size: 16px;
+    font-size: 18px;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
