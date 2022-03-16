@@ -3,7 +3,7 @@
 This website is my portfolio created with the use of html and css.
 
 **************************************
-[Portfolio](https://bsmith675.github.io/Horiseon-Code-Refactor-/)
+[Portfolio](https://bsmith675.github.io/Portfolio-/)
 **************************************
 <img width="403" alt="Screenshot 2022-03-07 at 11 56 05 PM" src="https://user-images.githubusercontent.com/98413163/157169505-86df47e4-0a46-4771-8307-a076db2f197b.png">
 
